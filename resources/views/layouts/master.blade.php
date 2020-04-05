@@ -8,11 +8,11 @@
     <body>
         <nav class="navbar navbar-default">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Appointment reminders</a>
+                <a class="navbar-brand" href="#">SMS Reminder System</a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ route('appointment.index') }}">Index</a></li>
+                    <li><a href="{{ route('appointment.index') }}">Home</a></li>
                     <li><a href="{{ route('appointment.create') }}">New appointment</a></li>
                 </ul>
             </div>
