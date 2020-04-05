@@ -22,7 +22,7 @@
         </div>
         <footer class="container">
             Made by Milos Milenkovic
-            <a href="http://www.twilio.com">@twilio</a>
+            <a href="https://milosmilenkovic.ml.com">@Milos</a>
         </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
