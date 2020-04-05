@@ -3,7 +3,7 @@
         <link href="//netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
         <link href="//cdnjs.cloudflare.com/ajax/libs/bootstrap-datetimepicker/4.14.30/css/bootstrap-datetimepicker.min.css" rel="stylesheet">
         <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-        <title>Appointment reminders - @yield('title', 'reminders')</title>
+        <title>SMS Reminder - @milos('title', 'reminders')</title>
     </head>
     <body>
         <nav class="navbar navbar-default">
@@ -21,7 +21,7 @@
             @yield('content')
         </div>
         <footer class="container">
-            Made with <i class="fa fa-heart"></i> by your pals
+            Made by Milos Milenkovic
             <a href="http://www.twilio.com">@twilio</a>
         </footer>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
