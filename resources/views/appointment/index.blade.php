@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-<h2> All appointments </h2>
+<h2> All Reminders </h2>
 @if(count($apts) > 0)
     <table class="table">
         <thead>

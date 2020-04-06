@@ -17,8 +17,11 @@ Route::get(
     }
 );
 
-Route::resource('appointment', 'AppointmentController');
+Route::resource('appointment', 'AppointmentController')->middleware('authenticated');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
