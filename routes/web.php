@@ -11,11 +11,9 @@
 |
 */
 
-Route::get(
-    '/', function () {
-        return redirect()->route('appointment.index');
-    }
-);
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::resource('appointment', 'AppointmentController')->middleware('authenticated');
 
