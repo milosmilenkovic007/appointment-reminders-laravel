@@ -18,3 +18,7 @@ Route::get(
 );
 
 Route::resource('appointment', 'AppointmentController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
