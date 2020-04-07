@@ -14,7 +14,7 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li><a href="{{ url('/') }}">Home</a></li>
+                    <li><a href="{{ url('/appointment') }}">Reminders</a></li>
                     <li><a href="{{ route('appointment.create') }}">New appointment</a></li>
                     <li><a href="{{ url('/bulksms') }}">BulkSMS</a></li>
                 
