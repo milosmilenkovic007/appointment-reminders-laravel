@@ -20,6 +20,7 @@ Route::resource('appointment', 'AppointmentController')->middleware('authenticat
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-
+Route::view('/bulksms', 'bulksms');
+Route::post('/bulksms', 'BulkSmsController@sendSms');
 
 
