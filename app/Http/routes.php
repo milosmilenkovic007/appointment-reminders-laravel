@@ -18,3 +18,5 @@ Route::get(
 );
 
 Route::resource('appointment', 'AppointmentController');
+Route::view('/bulksms', 'bulksms');
+Route::post('/bulksms', 'BulkSmsController@sendSms');
